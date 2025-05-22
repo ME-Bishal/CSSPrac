@@ -1,0 +1,102 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+div{
+    background-color: black;
+    height:60px
+}
+#logo{
+    text-align: left;
+    margin-right: 700px;
+}
+a{
+    text-align:right;
+    margin-right:50px
+}
+img{
+    height: 30px;
+    padding-top:20px
+} */
+ *{
+    margin: 0;
+    padding: 0;
+    color: white;
+    
+    /* background-repeat: no-repeat; */
+ }
+ header{
+    background-color: black;
+    height:60px
+    
+ }
+ #header{
+   position: sticky;
+   top: 0;
+   z-index: 10000;
+   background-color: black;
+ }
+ div{
+   position: relative;
+ }
+ #logo{
+    color:orange;
+    text-align:left;
+    font-size:25px;
+    margin-right:800px;
+
+ }
+ a{
+    margin-right:60px;
+    text-decoration:wavy overline;
+   
+ }
+ button{
+background-color:orange;
+color:black;
+ }
+
+/* main{
+    margin-top:100px;
+    
+} */
+ main{
+    color: black;;
+    background-image: url("/images/panda.jpg");
+    /* background-size: contain;
+    background-repeat: no-repeat; */
+    background-size: cover;
+    height: 100vh;
+ }
+ .box{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+ }   
+ #div1{
+    background-color: rgba(255,0,0,0.5);
+ }
+ #div2{
+    background-color: rgba(0,255,0,0.5);
+ }
+ #div3{
+    background-color: rgba(0,0,255,0.5);
+ }
+
+ footer{
+   position: fixed;
+   bottom: 0;
+   z-index: 2;
+   width: 100vw;
+    background-color: black;
+    font-size: 25px;
+    height: 60px;
+    text-align: center;
+ }
+ img{
+    height:50px;
+    padding-top:20px;
+    padding-left:20px;
+ }
+
