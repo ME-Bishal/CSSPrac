@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#container{
+    border: 1px solid black;
+    height: 500px;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    
+}
+div{
+    height: 100px;
+    width: 100px;
+    transition-property:all;
+    transition-timing-function: linear;
+    transition-duration: 2s;
+
+}
+#box1{
+    background-color: red;
+}
+#box2{
+    background-color: green;
+
+}
+#box3{
+    background-color: aqua;
+
+}
+#box4{
+    background-color: blueviolet;
+}
+#box1:hover{
+    background-color: blueviolet;
+    transform: rotate(0deg);
+}
+#box2:hover{
+    background-color: red;
+    transform: rotate(0deg);
+
+}
+#box3:hover{
+    background-color: green;
+    transform: rotate(0deg);
+}
+#box4:hover{
+    background-color: aqua;
+    transform: rotate(0deg);
+}
+@media(min-width:700px){
+    #box1,
+    #box4,
+    #box3,
+    #box2{
+ background-color:violet;
+ transform:rotate(45deg);
+    }
+        
+
+}
+@media(max-width:200px){
+    #box1,
+    #box4,
+    #box3,
+    #box2{
+ background-color:blue;
+    }
+}
+@media(width:256px){
+    #box3{ background-color:violet;
+ }}

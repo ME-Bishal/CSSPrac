@@ -1,0 +1,29 @@
+*{
+    font-family:'Times New Roman';
+}
+#box{
+    background-color: blue;
+    text-align:justify;
+    font-family:'Times New Roman';
+}
+.heading{
+    color:red;
+    text-align:center;
+    text-decoration:blue wavy overline;
+    font-weight: bolder;
+    font-family:'Times New Roman';
+}
+ /* button{
+    background-color:green;
+} */
+ #toCapitalize{
+    text-align:center;
+    text-transform:capitalize;
+
+ }
+ #outer{
+    font-size:25px;
+ }
+ #inner{
+    font-size:10px;
+ }
